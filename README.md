@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/40331046/230612672-b15b9b2f-9965-4c26-
 
 ## Installation
 ```sh
-cd ~/.local/share/plasma/plasmoids/ && git clone https://github.com/folfcoder/plasma-sharkle im.fcd.sharkle
+mkdir -p ~/.local/share/plasma/plasmoids/ && cd ~/.local/share/plasma/plasmoids/ && git clone https://github.com/folfcoder/plasma-sharkle im.fcd.sharkle
 ```
 Then right-click on your desktop > Add widgets > Drag the Sharkle widget to your desktop
 
