@@ -24,7 +24,7 @@ Then right-click on your desktop > Add widgets > Drag the Sharkle widget to your
 - [ ] Upload to KDE Store??
 
 ## License
-This project is licensed under MIT license, except for PNGs and WAVs, which are owned by Infinite Fall/Finji.
+This project is licensed under GNU GPL v3.0, except for PNGs and WAVs, which are owned by Infinite Fall/Finji.
 
 ## Credits
 Big thanks to [SamusAranX](https://github.com/SamusAranX) for the WAV files, and of course, a shoutout to the incredible creators of NITW (RIP, Alec).
