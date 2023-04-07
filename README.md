@@ -12,8 +12,8 @@ Give it a poke and it'll blast out one of eight sound effects while displaying S
 https://user-images.githubusercontent.com/40331046/230612672-b15b9b2f-9965-4c26-abf6-8d7be0b15b59.mp4
 
 ## Installation
-```bash
-$ cd ~/.local/share/plasma/plasmoids/ && git clone https://github.com/folfcoder/plasma-sharkle im.fcd.sharkle
+```sh
+cd ~/.local/share/plasma/plasmoids/ && git clone https://github.com/folfcoder/plasma-sharkle im.fcd.sharkle
 ```
 Then right-click on your desktop > Add widgets > Drag the Sharkle widget to your desktop
 
