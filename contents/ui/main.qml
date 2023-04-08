@@ -84,9 +84,9 @@ Item {
                 width: parent.width
                 height: parent.height
                 anchors.right: idleImage.left
-                anchors.rightMargin: -60
+                anchors.rightMargin: -60*(Math.min(parent.width, parent.height)/200)
                 anchors.bottom: idleImage.top
-                anchors.bottomMargin: -60
+                anchors.bottomMargin: -60*(Math.min(parent.width, parent.height)/200)
 
                 source: "../images/" + sharkleColor + "/talk/" + (talkIndex) + ".png"
                 visible: !isIdle

@@ -22,7 +22,6 @@ To change the color, right click on Sharkle > Configure Sharkle > Change color a
 
 ## To-do
 - [ ] Fix missing icon
-- [ ] Fix margin when the widget is resized
 - [ ] Upload to KDE Store??
 
 ## License
