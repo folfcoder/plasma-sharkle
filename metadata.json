@@ -10,7 +10,7 @@
 		"Description": "The Sharkle widget, as featured in Night in the Woods, now on KDE Plasma!",
 		"Icon": "./icon.png",
 		"Id": "im.fcd.sharkle",
-		"License": "MIT",
+		"License": "GPLv3",
 		"Name": "Sharkle",
 		"ServiceTypes": [
 			"Plasma/Applet"
