@@ -4,6 +4,7 @@
 
 The Sharkle widget, as featured in Night in the Woods, now on KDE Plasma! 
 Give it a poke and it'll blast out one of eight sound effects while displaying SHARKLE.
+Available in black and white versions and can be used with most wallpapers.
 
 (Heads up: This is my first time messing around with QML stuff. Please create an issue if you encounter any bugs!)
 
@@ -17,10 +18,11 @@ mkdir -p ~/.local/share/plasma/plasmoids/ && cd ~/.local/share/plasma/plasmoids/
 ```
 Then right-click on your desktop > Add widgets > Drag the Sharkle widget to your desktop
 
+To change the color, right click on Sharkle > Configure Sharkle > Change color and hit apply
+
 ## To-do
 - [ ] Fix missing icon
 - [ ] Fix margin when the widget is resized
-- [ ] Add settings to support both dark/light background
 - [ ] Upload to KDE Store??
 
 ## License
