@@ -8,7 +8,7 @@
 		],
 		"Category": "Fun and Games",
 		"Description": "The Sharkle widget, as featured in Night in the Woods, now on KDE Plasma!",
-		"Icon": "./icon.png",
+		"Icon": "icons/lockers.svg",
 		"Id": "im.fcd.sharkle",
 		"License": "GPLv3",
 		"Name": "Sharkle",
@@ -18,7 +18,7 @@
 		"Version": "1.0",
 		"Website": "https://github.com/folfcoder/plasma-sharkle"
 	},
-	"X-Plasma-API": "declarativeappletscript",
+	"X-Plasma-API-Minimum-Version": "6.0",
 	"X-Plasma-MainScript": "ui/main.qml",
 	"KPackageStructure": "Plasma/Applet",
 	"X-Plasma-StandAloneApp": true

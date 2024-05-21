@@ -1,14 +1,14 @@
-import QtQuick 2.12
-import QtQuick.Layouts 1.12
+import QtQuick 2.15
+import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.5
-import QtMultimedia 5.15
+import QtMultimedia 6.7
 
 import org.kde.plasma.plasmoid 2.0
-import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.core as PlasmaCore
 
-Item {
+PlasmoidItem {
     Plasmoid.backgroundHints: PlasmaCore.Types.NoBackground
-    Plasmoid.fullRepresentation: Item {
+    fullRepresentation: Item {
         Layout.minimumWidth: 100
         Layout.minimumHeight: 100
         Layout.preferredWidth: 200
