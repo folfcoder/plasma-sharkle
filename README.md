@@ -1,4 +1,5 @@
 # Sharkle Plasmoid For KDE Plasma 
+![KDE Plasma](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Ffolfcoder%2Fplasma-sharkle%2Fraw%2Fmain%2Fmetadata.json&query=%24%5B%22X-Plasma-API-Minimum-Version%22%5D&style=for-the-badge&label=KDE%20Plasma)
 ![License](https://img.shields.io/github/license/folfcoder/plasma-sharkle?style=for-the-badge)
 ![Gregg Rulz OK!](https://img.shields.io/badge/Gregg%20rulz-OK-orange?&style=for-the-badge)
 
