@@ -49,6 +49,11 @@ PlasmoidItem {
         MediaPlayer {
             id: mediaplayer
             source: "../sounds/" + soundIndex + ".wav"
+            // On first .play() call, applet freezes so this is a temporary fix I guess
+            autoPlay: true
+            audioOutput: AudioOutput {
+                muted: true
+            }
         }
         MouseArea {
             anchors.fill: parent
@@ -59,6 +64,7 @@ PlasmoidItem {
 
                 // Play sound
                 soundIndex = (soundIndex + 1) % 8
+                mediaplayer.audioOutput.muted = false
                 mediaplayer.play()
             }
         }
