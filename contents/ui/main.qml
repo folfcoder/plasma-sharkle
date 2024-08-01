@@ -18,7 +18,7 @@ PlasmoidItem {
         property int talkIndex: 0
         property int soundIndex: 0
         property bool isIdle: true
-        property string sharkleColor: Plasmoid.configuration.sharkleColor.toLowerCase()
+        property string sharkleColor: Plasmoid.configuration.sharkleColor == 1 ? "white" : "black"
 
         Timer {
             id: animationTimer

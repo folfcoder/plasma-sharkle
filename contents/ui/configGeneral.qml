@@ -6,7 +6,7 @@ import org.kde.kirigami 2.5 as Kirigami
 
 Item {
     id: page
-    property alias cfg_sharkleColor: sharkleColor.currentText
+    property alias cfg_sharkleColor: sharkleColor.currentIndex
 
 
     Kirigami.FormLayout {
