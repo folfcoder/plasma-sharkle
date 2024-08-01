@@ -19,6 +19,7 @@ PlasmoidItem {
         property int soundIndex: 0
         property bool isIdle: true
         property string sharkleColor: Plasmoid.configuration.sharkleColor == 1 ? "white" : "black"
+        property bool pizzaCursorEnabled: Plasmoid.configuration.pizzaCursor
 
         Timer {
             id: animationTimer
@@ -57,6 +58,20 @@ PlasmoidItem {
         }
         MouseArea {
             anchors.fill: parent
+            cursorShape: pizzaCursorEnabled ? Qt.BlankCursor : Qt.ArrowCursor
+            hoverEnabled: true
+            onPositionChanged: {
+                pizzaCursor.x = mouseX
+                pizzaCursor.y = mouseY
+            }
+            onEntered: {
+                pizzaCursor.visible = pizzaCursorEnabled && true
+                pizzaCursor.x = mouseX
+                pizzaCursor.y = mouseY
+            }
+            onExited: {
+                pizzaCursor.visible = pizzaCursorEnabled && false
+            }
             onClicked: {
                 // Set animation to hello
                 isIdle = false
@@ -97,6 +112,13 @@ PlasmoidItem {
                 source: "../images/" + sharkleColor + "/talk/" + (talkIndex) + ".png"
                 visible: !isIdle
             }
+        }
+        Image {
+            id: pizzaCursor
+            source: "../images/pizza.png"
+            visible: false
+            width: 80
+            height: 80
         }
     }
 }
